@@ -1,10 +1,11 @@
 const {moves, turns}=require('./constants');
-// const string1= '4 8 \n (2, 3, E) LFRFF \n (0, 2, N) FFLFRFF'
-// const string2= '4 8 \n (2, 3, N) FLLFR \n (1, 0, S) FFRLF'
-// const input=parseInput(string2)
-// const roverData=moveRovers(input)
-// const output=parseOutput(roverData)
-// console.log(output)
+
+const string1= '4 8 \n (2, 3, E) LFRFF \n (0, 2, N) FFLFRFF'
+const string2= '4 8 \n (2, 3, N) FLLFR \n (1, 0, S) FFRLF'
+const input=parseInput(string2)
+const roverData=moveRovers(input)
+const output=parseOutput(roverData)
+console.log(output)
 
 function parseInput(string){
 
