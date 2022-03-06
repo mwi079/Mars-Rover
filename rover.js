@@ -9,8 +9,8 @@ console.log(output)
 
 function parseInput(string){
 
-   const array=string.split('\n');
-   const limits=array.shift().trim().split(' ');
+    const array=string.split('\n');
+    const limits=array.shift().trim().split(' ');
     const xmax=+limits[0];
     const ymax=+limits[1];
     const rovers=[];
