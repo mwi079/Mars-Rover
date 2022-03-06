@@ -53,7 +53,7 @@ function parseOutput(roverData){
     let result='';
     for (const [index,rover] of roverData.entries()){
         if(index<roverData.length-1) result=result.concat(`(${rover.x}, ${rover.y}, ${rover.direction})${rover.lost?' LOST':''}\n`);
-        else  result=result.concat(`(${rover.x}, ${rover.y}, ${rover.direction})${rover.lost?' LOST':null}`);
+        else  result=result.concat(`(${rover.x}, ${rover.y}, ${rover.direction})${rover.lost?' LOST':''}`);
     }
     return result;
 };
